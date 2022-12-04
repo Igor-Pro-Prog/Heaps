@@ -78,9 +78,9 @@ class Heap:
     def __delitem__(self, i):
         del self.heap[i]
 
-#Cria um menu para o usuario escolher qual operação deseja fazer
+#menu para o usuario escolher qual operação deseja fazer
 def menu():
-    print ('0 - Criar heap e 0escolher o tipo')
+    print ('0 - Criar heap e escolher o tipo')
     print('1 - Inserir')
     print('2 - Remover')
     print('3 - Trocar')
